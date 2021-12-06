@@ -9,7 +9,7 @@ public class SomeController {
     @GetMapping("/hello")
     public String sayHello(){
         return "Hello world" +
-                "\ngithub: https://github.com/Zyablikitsme";
+                "<br></br><br></br><br></br><h2><a href=\"https://github.com/Zyablikitsme\">github</a></h2>";
     }
 
     @GetMapping("/github")
